@@ -21,6 +21,7 @@ public class ListCollectionExample {
         System.out.println("How many students are there?");
         System.out.print("> ");
         int next = scanner.nextInt();
+
         for (int i = 0; i < next; i++) {
             System.out.println("Enter the name of the student.");
             System.out.print("> ");
